@@ -35,7 +35,7 @@ var cronometro = setInterval(function() {
 		clearInterval(createMosquito)
 		window.location.href = 'victory.html'
 	} else {
-	document.getElementById('cronometro').innerHTML = tempo
+		document.getElementById('cronometro').innerHTML = tempo
 	}
 
 }, 1000)
