@@ -12,9 +12,9 @@ nivel = nivel.replace('?', '')
 if (nivel === 'normal') {
 	MosquitoTime = 1000
 } else if (nivel == 'dificil') {
-	MosquitoTime = 500
+	MosquitoTime = 900
 } else if (nivel == 'lendario') {
-	MosquitoTime = 250
+	MosquitoTime = 700
 }
 
 
