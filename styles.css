@@ -1,0 +1,83 @@
+html {
+	cursor: url(img/mata_mosca.png) 30 30, auto;
+}
+
+body {
+	background-image: url(img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.coin {
+	cursor: url(img/coin.png) 30 30, auto;
+}
+
+.painel {
+	position: absolute;
+	width: 190px;
+	padding: 10px;
+	bottom: 0px;
+	left: 0px;
+	border-top: 1px solid #fff;
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+.vidas {
+	float: left;
+}
+
+.cronometro {
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* ---------- Classes Size e Side Random ---------- */
+.mosquito1 {
+	width: 50px;
+	height: 50px;
+}
+
+.mosquito2 {
+	width: 70px;
+	height: 70px;
+}
+
+.mosquito3 {
+	width: 90px;
+	height: 90px;
+}
+
+.sideA {
+	transform: scaleX(1); /* Imagem não invertida */
+}
+
+.sideB {
+	transform: scaleX(-1); /* Inverte imagem */
+}
+/* ------------------------------------------------- */
+
+/* ---------- Please Insert Coin Animation --------- */ 
+
+.please-insert-coin {
+	/* Start the animation when the page loads */
+	animation: fade-in-out 2s ease-in-out infinite;
+	cursor: pointer;
+  }
+
+/* The keyframes for the animation */
+@keyframes fade-in-out {
+	0% {
+	  /* Make the image fully transparent at the start of the animation */
+	  opacity: 0;
+	}
+	50% {
+	  /* Make the image fully opaque at the middle of the animation */
+	  opacity: 1;
+	}
+	100% {
+	  /* Make the image fully transparent at the end of the animation */
+	  opacity: 0;
+	}
+  }
