@@ -71,6 +71,7 @@ function randomPosition() {
 	mosquito.style.top = posY + 'px';
 	mosquito.style.position = 'absolute';
 	mosquito.id = 'mosquito';
+	mosquito.draggable = false;
 	mosquito.onclick = function () {
 		this.remove();
 	}
