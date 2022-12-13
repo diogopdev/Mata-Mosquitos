@@ -43,6 +43,26 @@ body {
 	text-align: center;
 	margin-bottom: 10px;
   }
+
+/* ----------------- Painel Survivor --------------- */
+
+#survivor.painel {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.painel-survivor {
+	border: 1px solid #fff;
+	background-color: #fff;
+	opacity: 0.7;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
   
 
 /* ---------- Classes Size e Side Random ---------- */

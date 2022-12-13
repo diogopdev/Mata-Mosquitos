@@ -14,7 +14,10 @@
 			if(nivel == ''){
 				alert('Selecione um nível para iniciar o jogo')
 				return false
-			} 
+			} else if (nivel == 'survivor') {
+				window.location.href = "survivor.html"
+				return false
+			}
 			
 			window.location.href = "home.html?" + nivel
 		}
@@ -38,6 +41,7 @@
 					<div class="mb-2">
 						<select class="form-control" id="nivel">
 							<option value="">-- Selecione o nível --</option>
+							<option value="survivor">Survivor</option>
 							<option value="normal">Normal</option>
 							<option value="dificil">Difícil</option>
 							<option value="lendario">Lendário</option>
