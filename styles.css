@@ -12,26 +12,38 @@ body {
 	cursor: url(img/coin.png) 30 30, auto;
 }
 
+/* ---------- Painel de vidas e Cronometro ---------- */
+
 .painel {
 	position: absolute;
 	width: 190px;
-	padding: 10px;
-	bottom: 0px;
-	left: 0px;
+	/* padding: 10px 50px; */
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, 0%);
+  
+	margin-left: auto;
+	margin-top: auto;
+  
 	border-top: 1px solid #fff;
 	background-color: #fff;
 	opacity: 0.7;
-}
-
-.vidas {
-	float: left;
-}
-
-.cronometro {
-	float: left;
+  }
+  
+  .vidas {
+	float: none;
+	margin: 10px auto;
+	width: 100px;
+  }
+  
+  .cronometro {
+	clear: both;
 	font-size: 20px;
 	font-weight: bold;
-}
+	text-align: center;
+	margin-bottom: 10px;
+  }
+  
 
 /* ---------- Classes Size e Side Random ---------- */
 .mosquito1 {
